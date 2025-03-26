@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hồ Sơ Cá Nhân</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="profile">
+        <div class="left-panel">
+            <img src="asset/avatar/avatar.jpg" alt="Avatar" class="avatar">
+            <h2>Bùi Thị Thanh Huệ</h2>
+            <p>Năm sinh: 27 tháng 4 năm 2005</p>
+            <p>Quê quán: Đào Xá - Thanh Thủy - Phú Thọ</p>
+            <p>Sinh viên năm 2 - Ngành Thương mại điện tử - Trường Đại học Công nghệ thông tin và truyền thông Thái Nguyên</p>
+            <p>Tôi là một người thích khám phá, đam mê công nghệ và có khả năng ăn uống không giới hạn. Ban ngày tôi làm
+                việc chăm chỉ, ban đêm thì mơ về những chuyến du lịch vòng quanh thế giới.</p>
+        </div>
+
+        <div class="right-panel">
+            <div class="hobbies">
+                <div class="hobby-study">
+                    <h3>Kết quả học tập</h3>
+                    <canvas id="gpaChart"></canvas>
+                </div>
+
+
+                <div class="separator"></div>
+
+                <h2>Sở thích của tôi</h2>
+
+                <div class="hobby-slider">
+                    <div class="hobby-slide active">
+                        <h3>Món ăn</h3>
+                        <div class="hobby-images">
+                            <div>
+                                <img src="asset/img/kem.jpg" alt="Kem">
+                                <p>Kem</p>
+                            </div>
+                            <div>
+                                <img src="asset/img/trungvitlon.jpg" alt="Trứng">
+                                <p>Trứng vịt lộn</p>
+                            </div>
+                            <div>
+                                <img src="asset/img/bm.jpg" alt="Bánh mì xá xíu">
+                                <p>Bánh mì xá xíu</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="hobby-slide">
+                        <h3>Bản nhạc</h3>
+                        <div class="hobby-images">
+                            <div>
+                                <img src="asset/img/exitsign.jpg" alt="Exit Sign">
+                                <p>Exit Sign</p>
+                            </div>
+                            <div>
+                                <img src="asset/img/staywithme.jpg" alt="Stay With Me">
+                                <p>Stay With Me</p>
+                            </div>
+                            <div>
+                                <img src="asset/img/noinaycoanh.jpg" alt="Nơi Này Có Anh">
+                                <p>Nơi Này Có Anh</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="hobby-slide">
+                        <h3>Du lịch</h3>
+                        <div class="hobby-images">
+                            <div>
+                                <img src="asset/img/dalat.jpg" alt="Đà Lạt">
+                                <p>Đà Lạt</p>
+                            </div>
+                            <div>
+                                <img src="asset/img/phuquoc.jpg" alt="Phú Quốc">
+                                <p>Phú Quốc</p>
+                            </div>
+                            <div>
+                                <img src="asset/img/hanoi.jpg" alt="Hà Nội">
+                                <p>Hà Nội</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider-buttons">
+                        <button onclick="prevSlide()">&#10094; Trước</button>
+                        <button onclick="nextSlide()">Tiếp &#10095;</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+
+<script src="script/nextslide.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="script/chart.js"></script>
